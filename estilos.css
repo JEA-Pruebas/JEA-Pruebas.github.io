@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(50, 50, 50);
+    color: whitesmoke;
+}
+
+li{
+    list-style-type: none;
+}
+li a{
+    text-decoration: none;
+    color: yellow;
+    font-size: 20px;
+}
+li a:hover{
+    color: yellow;
+    text-decoration: underline;
+}
+h3, span, ul, li, a{
+    background-color: rgb(75, 75, 75);
+}
+.contenedor{
+    border-radius: 20px;
+    width: 350px;
+    height: 400px;
+    background-color: rgb(75, 75, 75);
+    box-shadow: 1px 1px 15px 15px rgb(200, 197, 194);
+}
+.violet-text{
+    color: rgb(195, 0, 255);
+}
+.puntos{
+    color: rgb(75, 75, 75);
+}
+.red-text{
+    color: rgb(185, 10, 10);
+}
+.light-blue-text{
+    color: rgb(3, 214, 233);
+}
+.boton{
+    background-color: rgb(195, 0, 255) !important;
+    color: whitesmoke !important;
+    width: 41%;
+}
+.margenes{
+    margin-left: -40px;
+    font-size: 20px;
+    color: grey;
+    font-weight: bold;
+}
+.margenes-solo{
+    margin-left: 8px;
+    font-size: 20px;
+    color: grey;
+    font-weight: bold;
+}
