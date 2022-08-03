@@ -58,3 +58,10 @@ h3, span, ul, li, a{
     color: grey;
     font-weight: bold;
 }
+@media screen and (max-width: 430px) {
+    .contenedor{
+        width: 290px;
+        height: 400px;
+        box-shadow: 1px 1px 10px 5px rgb(200, 197, 194);
+    }   
+}
