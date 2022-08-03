@@ -61,7 +61,7 @@ h3, span, ul, li, a{
 
 @media screen and (max-width: 430px) {
     .contenedor{
-        width: 250px;
+        width: 270px;
         height: 330px;
         box-shadow: 1px 1px 10px 5px rgb(200, 197, 194);
     }
