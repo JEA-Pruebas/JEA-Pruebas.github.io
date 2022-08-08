@@ -1,77 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
 *{
     margin: 0;
     padding: 0;
-    border: 0;
-    font-family: 'Roboto', sans-serif;
-    background-color: rgb(50, 50, 50);
-    color: whitesmoke;
+    background: #D3CCE3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E9E4F0, #D3CCE3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.flex-container-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 40%;
+    border-radius: 10px;
+    background: #2f2e2e;  /* fallback for old browsers */
+    box-shadow: rgb(11, 13, 14) 0px 0px 200px 10px;
+
 }
 
 li{
     list-style-type: none;
-}
-li a{
-    text-decoration: none;
-    color: yellow;
-    font-size: 20px;
-}
-li a:hover{
-    color: yellow;
-    text-decoration: underline;
-}
-h3, span, ul, li, a{
-    background-color: rgb(75, 75, 75);
-}
-.contenedor{
-    border-radius: 20px;
-    width: 350px;
-    height: 400px;
-    background-color: rgb(75, 75, 75);
-    box-shadow: 1px 1px 15px 15px rgb(200, 197, 194);
-}
-.violet-text{
-    color: rgb(195, 0, 255);
-}
-.puntos{
-    color: rgb(75, 75, 75);
-}
-.red-text{
-    color: rgb(185, 10, 10);
-}
-.light-blue-text{
-    color: rgb(3, 214, 233);
-}
-.boton{
-    background-color: rgb(195, 0, 255) !important;
-    color: whitesmoke !important;
-    width: 41%;
-}
-.margenes{
-    margin-left: -40px;
-    font-size: 20px;
-    color: grey;
-    font-weight: bold;
-}
-.margenes-solo{
-    margin-left: 8px;
-    font-size: 20px;
-    color: grey;
-    font-weight: bold;
+    background: #2f2e2e;  /* fallback for old browsers */
 }
 
-@media screen and (max-width: 430px) {
-    .contenedor{
-        width: 280px;
-        height: 380px;
-        box-shadow: 1px 1px 15px 15px rgb(200, 197, 194);
+li a{
+    text-decoration: none;
+    background: #2f2e2e;  /* fallback for old browsers */
+    font-size: 20px;
+    color: whitesmoke;
+
+}
+a:hover{
+    text-decoration: underline;
+}
+
+.flex-item-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 300px;
+    height: 100%;
+    border-radius: 10px 0px 0px 10px;
+    background: #2f2e2e;  /* fallback for old browsers */
+
+}
+.flex-item-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 200px;
+    background: #2f2e2e;  /* fallback for old browsers */
+    border-radius: 0px 10px 10px 0px;
+    border-left: solid rgb(210, 200, 200);
+    height: 60%;
+}
+img{
+    width: 150px;
+    height: 150px;
+    background: rgb(220, 210, 210);  /* fallback for old browsers */
+    border-radius: 50%;
+
+}
+ 
+div h3, div h4{
+    background: #2f2e2e;  /* fallback for old browsers */
+    color: antiquewhite;
+    font-family: 'Open Sans', sans-serif;
+}
+
+div li a{
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+.flex-item-2-1{
+    background: #2f2e2e;  /* fallback for old browsers */
+}
+div a{
+    background: #2f2e2e;  /* fallback for old browsers */
+    font-size: 25px;
+    margin: 5px;
+}
+a i{
+    background: #2f2e2e;  /* fallback for old browsers */
+    color: whitesmoke;
+}
+
+@media screen and (max-width: 460px){
+    .flex-container-1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 80%;
+        width: 80%;
+        box-shadow: rgb(11, 13, 14) 0px 0px 100px 0px;
     }
-    .boton{
-        font-size: 16px !important;
+    .flex-item-1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        width: 85%;
+        border-radius: 10px 10px 0px 0px;
+        height: 60%;
+    
     }
-    h3 span{
-        font-size: 20px !important;
-    }
-    h3{
-        font-size: 20px !important;
+    .flex-item-2{
+        width: 65%;
+        height: 30%;
+        border-radius: 0px 0px 10px 10px;
+        border-top: solid rgb(210, 200, 200);
+        border-left: 0;
     }
 }
